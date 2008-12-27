@@ -39,6 +39,11 @@ command line before running any perl script.
 
 It can be used to set global variables.
 
+I find it also useful when running the perl debugger as a REPL to test
+things. For instance:
+ 
+  perl -MBegin='$ssh=Net::OpenSSH->new(host)' -de 1
+
 
 =head1 SEE ALSO
 

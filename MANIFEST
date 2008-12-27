@@ -3,4 +3,5 @@ Makefile.PL
 MANIFEST
 README
 t/Begin.t
+t/pods.t
 lib/Begin.pm
